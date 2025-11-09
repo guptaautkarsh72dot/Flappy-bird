@@ -27,36 +27,15 @@
         
         #bird {
             position: absolute;
-            width: 40px;
-            height: 30px;
-            background: #FFD700;
-            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            width: 60px;
+            height: 50px;
             left: 50px;
-            transition: transform 0.1s;
+            top: 250px;
+            background: url('IMG_20251109_011429.jpg') no-repeat center/cover;
             z-index: 10;
-        }
-        
-        #bird::before {
-            content: '';
-            position: absolute;
-            width: 15px;
-            height: 10px;
-            background: #FFA500;
-            border-radius: 50%;
-            right: -10px;
-            top: 10px;
-        }
-        
-        #bird::after {
-            content: '';
-            position: absolute;
-            width: 8px;
-            height: 8px;
-            background: #000;
-            border-radius: 50%;
-            right: 5px;
-            top: 8px;
-        }
+            transition: transform 0.1s;
+            border-radius: 10px;
+}
         
         .pipe {
             position: absolute;
